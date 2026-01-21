@@ -1,0 +1,20 @@
+# model-check-skills
+
+Claude Code skills for formal verification. Generates and verifies formal models from natural language system descriptions.
+
+## Skills
+
+- `model-check/SKILL.md` - Auto-selects TLA+, Alloy, or Dafny based on context
+- `model-check-tlaplus/SKILL.md` - State machines, workflows, protocols (TLC model checker)
+- `model-check-alloy/SKILL.md` - Data models, taxonomies, constraints (Alloy Analyzer)
+- `model-check-dafny/SKILL.md` - Code with pre/post conditions (Dafny verifier)
+
+## Installation
+
+Copy skill folders to `~/.claude/skills/` for use with Claude Code.
+
+## Key Files
+
+- SKILL.md files contain the full skill instructions
+- examples/ folders contain working verified specifications
+- test-examples.sh verifies all examples pass
