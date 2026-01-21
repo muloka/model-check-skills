@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# TLA+ / TLC artifacts
+states/
+*.old
+*.toolbox
+
+# Dafny artifacts
+*.dll
+*.runtimeconfig.json
+
+# Alloy artifacts
+*.cnf
+OrgStructure/
+
+# Editors
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Local Claude settings (users should configure their own)
+.claude/settings.local.json
